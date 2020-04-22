@@ -3,8 +3,7 @@
 <suite name="ExecutingCrossBrowser">
 	<test name="CrossBrowser1">
 		<parameter name="BrowserName" value="Chrome"></parameter>
-		<parameter name="UserName"
-			value="abhiseleniumdemo@gmail.com"></parameter>
+		<parameter name="UserName" value="abhiseleniumdemo@gmail.com"></parameter>
 		<parameter name="Password" value="!Teach123"></parameter>
 		<classes>
 			<class name="Test.Parametrization" />
