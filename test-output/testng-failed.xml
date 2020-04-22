@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ExecutingCrossBrowser]">
+  <test thread-count="5" name="CrossBrowser(failed)">
+    <classes>
+      <class name="Test.Parametrization">
+        <methods>
+          <include name="Login"/>
+          <include name="QuitTestCase"/>
+          <include name="InitiateBrowser"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- Test.Parametrization -->
+    </classes>
+  </test> <!-- CrossBrowser(failed) -->
+</suite> <!-- Failed suite [ExecutingCrossBrowser] -->

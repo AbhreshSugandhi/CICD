@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ExecutingCrossBrowser" duration-ms="55471" started-at="2020-04-22T17:57:50 IST" finished-at="2020-04-22T17:58:45 IST">
+    <groups>
+    </groups>
+    <test name="CrossBrowser1" duration-ms="25336" started-at="2020-04-22T17:57:50 IST" finished-at="2020-04-22T17:58:15 IST">
+      <class name="Test.Parametrization">
+        <test-method status="PASS" signature="InitiateBrowser(java.lang.String)[pri:0, instance:Test.Parametrization@63e2203c]" name="InitiateBrowser" duration-ms="8036" started-at="2020-04-22T17:57:50 IST" finished-at="2020-04-22T17:57:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiateBrowser -->
+        <test-method status="PASS" signature="OpenAUT()[pri:1, instance:Test.Parametrization@63e2203c]" name="OpenAUT" duration-ms="3452" started-at="2020-04-22T17:57:58 IST" finished-at="2020-04-22T17:58:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAUT -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:Test.Parametrization@63e2203c]" name="Login" duration-ms="6390" started-at="2020-04-22T17:58:01 IST" finished-at="2020-04-22T17:58:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abhiseleniumdemo@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[!Teach123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Logout()[pri:3, instance:Test.Parametrization@63e2203c]" name="Logout" duration-ms="3394" started-at="2020-04-22T17:58:08 IST" finished-at="2020-04-22T17:58:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="QuitTestCase()[pri:4, instance:Test.Parametrization@63e2203c]" name="QuitTestCase" duration-ms="3892" started-at="2020-04-22T17:58:11 IST" finished-at="2020-04-22T17:58:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitTestCase -->
+      </class> <!-- Test.Parametrization -->
+    </test> <!-- CrossBrowser1 -->
+    <test name="CrossBrowser2" duration-ms="30046" started-at="2020-04-22T17:58:15 IST" finished-at="2020-04-22T17:58:45 IST">
+      <class name="Test.Parametrization">
+        <test-method status="PASS" signature="InitiateBrowser(java.lang.String)[pri:0, instance:Test.Parametrization@5a1c0542]" name="InitiateBrowser" duration-ms="9162" started-at="2020-04-22T17:58:15 IST" finished-at="2020-04-22T17:58:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiateBrowser -->
+        <test-method status="PASS" signature="OpenAUT()[pri:1, instance:Test.Parametrization@5a1c0542]" name="OpenAUT" duration-ms="4549" started-at="2020-04-22T17:58:24 IST" finished-at="2020-04-22T17:58:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAUT -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:Test.Parametrization@5a1c0542]" name="Login" duration-ms="6158" started-at="2020-04-22T17:58:29 IST" finished-at="2020-04-22T17:58:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abhiseleniumdemo@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[!Teach123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Logout()[pri:3, instance:Test.Parametrization@5a1c0542]" name="Logout" duration-ms="3605" started-at="2020-04-22T17:58:35 IST" finished-at="2020-04-22T17:58:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="QuitTestCase()[pri:4, instance:Test.Parametrization@5a1c0542]" name="QuitTestCase" duration-ms="6543" started-at="2020-04-22T17:58:39 IST" finished-at="2020-04-22T17:58:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitTestCase -->
+      </class> <!-- Test.Parametrization -->
+    </test> <!-- CrossBrowser2 -->
+  </suite> <!-- ExecutingCrossBrowser -->
+</testng-results>

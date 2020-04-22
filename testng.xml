@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ExecutingCrossBrowser">
+	<test name="CrossBrowser1">
+		<parameter name="BrowserName" value="Chrome"></parameter>
+		<parameter name="UserName"
+			value="abhiseleniumdemo@gmail.com"></parameter>
+		<parameter name="Password" value="!Teach123"></parameter>
+		<classes>
+			<class name="Test.Parametrization" />
+		</classes>
+	</test> <!-- CrossBrowser -->
+	<test name="CrossBrowser2">
+		<parameter name="BrowserName" value="Firefox"></parameter>
+		<parameter name="UserName"
+			value="abhiseleniumdemo@gmail.com"></parameter>
+		<parameter name="Password" value="!Teach123"></parameter>
+		<classes>
+			<class name="Test.Parametrization" />
+		</classes>
+	</test> <!-- CrossBrowser -->
+</suite> <!-- ExecutingCrossBrowser -->
