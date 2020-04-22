@@ -55,7 +55,6 @@ public class Parametrization extends BrowserClass {
 	public void QuitBrowser() throws InterruptedException {
 
 		Thread.sleep(3000);
-
 		driver.quit();
 	}
 
