@@ -15,6 +15,7 @@ public class Parametrization extends BrowserClass {
 	@Test(priority = 0)
 	public void InitiateBrowser(String Browser) {
 		OpenBrowser(Browser);
+		
 	}
 
 	@Test(priority = 1)
