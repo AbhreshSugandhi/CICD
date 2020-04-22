@@ -52,7 +52,7 @@ public class Parametrization extends BrowserClass {
 	}
 
 	@Test(priority = 4)
-	public void QuitTestCase() throws InterruptedException {
+	public void QuitBrowser() throws InterruptedException {
 
 		Thread.sleep(3000);
 
