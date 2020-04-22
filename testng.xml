@@ -10,13 +10,4 @@
 			<class name="Test.Parametrization" />
 		</classes>
 	</test> <!-- CrossBrowser -->
-	<test name="CrossBrowser2">
-		<parameter name="BrowserName" value="Firefox"></parameter>
-		<parameter name="UserName"
-			value="abhiseleniumdemo@gmail.com"></parameter>
-		<parameter name="Password" value="!Teach123"></parameter>
-		<classes>
-			<class name="Test.Parametrization" />
-		</classes>
-	</test> <!-- CrossBrowser -->
 </suite> <!-- ExecutingCrossBrowser -->
