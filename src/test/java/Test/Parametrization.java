@@ -35,7 +35,6 @@ public class Parametrization extends BrowserClass {
 		driver.findElement(By.id("password")).sendKeys(Pwd);
 
 		driver.findElement(By.name("commit")).click();
-
 	}
 
 	@Test(priority = 3)
@@ -57,5 +56,4 @@ public class Parametrization extends BrowserClass {
 		Thread.sleep(3000);
 		driver.quit();
 	}
-
 }
