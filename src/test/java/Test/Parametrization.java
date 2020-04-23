@@ -27,6 +27,7 @@ public class Parametrization extends BrowserClass {
 	@Test(priority = 4)
 	public void QuitBrowser() throws InterruptedException {
 		Thread.sleep(3000);
+		Thread.sleep(3000);
 		driver.quit();
 	}
 }
