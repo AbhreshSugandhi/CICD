@@ -13,5 +13,4 @@
 			<class name="Test.Parametrization" />
 		</classes>
 	</test> <!-- CrossBrowser -->
-
 </suite> <!-- ExecutingCrossBrowser -->
