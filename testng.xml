@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="ExecutingCrossBrowser">
+<suite name="Executing Cross Browser">
 	<test name="CrossBrowser1">
 		<parameter name="BrowserName" value="Chrome"></parameter>
 		<classes>
